@@ -1,0 +1,32 @@
+{
+	"name": "Fx Calculator",
+	"short_name": "Fx Calc",
+	"display": "standalone", // display ->  definiert, ob Teile des Web-Browsers angezeigt werden oder nicht; standalone -> Adresszeile wird versteckt
+	"start_url": "./",
+	"scope": "./",
+	// scope gibt an, welche Pfade Teil der PWA sind und welche nicht
+	// mit / wird angegeben, dass alles unter der Baseurl teil der PWA ist; mit ./ wird angegeben, dass alles ab der relativen Baseurl Teil der PWA ist
+	"background_color": "#cfc",
+	"theme_color": "#cfc",
+	"description": "Simple Fx Calculator based on fixer.io API",
+	"icons": [
+		{
+			"src": "maskable-icon512.png",
+			"sizes": "512x512",
+			"type": "image/png",
+			"purpose": "maskable"
+		},
+		{
+			"src": "icon512.png",
+			"sizes": "512x512",
+			"type": "image/png",
+			"purpose": "any"
+		},
+		{
+			"src": "icon16.png",
+			"sizes": "16x16",
+			"type": "image/png",
+			"purpose": "any"
+		}
+	]
+}
